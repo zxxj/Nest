@@ -1,0 +1,16 @@
+## 如何在next中进行路由定义?
+
+next是使用基于文件系统的路由,其中文件夹用于定义路由
+
+
+
+例如项目中有如下结构:
+
+![image-20250702230337839](/Users/zhangxinxin/Library/Application Support/typora-user-images/image-20250702230337839.png)
+
+app根目录中有一个page.tsx/js/jsx,那么他的路由就是 "/"
+
+app目录下有一个dashboard文件夹,dahboard文件夹中存在一个page.tsx/js/jsx,那么他的路由就是/dashboard
+
+
+
