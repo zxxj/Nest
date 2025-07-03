@@ -64,30 +64,30 @@ npx next build --debug // 开启后，将输出额外的构建输出信息如 `r
 ```
 
 # next dev
-开发模式下，使用 `next dev` 运行程序，会自动具有热加载、错误报告等功能。默认情况下，程序将在 `http://localhost:3000` 开启。如果你想更改端口号：
+开发模式下,使用 `next dev` 运行程序,会自动具有热加载、错误报告等功能。默认情况下，程序将在 `http://localhost:3000` 开启.如果你想更改端口号:
 ```js
 npx next dev -p 4000
 ```
 
-如果你想更改主机名（hostname）：（以便其他主机访问）:
+如果你想更改主机名（hostname）:（以便其他主机访问）:
 ```js
 npx next dev -H 192.1.5
 ```
 
 # next start
-生产模式下，使用 `next start`运行程序。不过要先执行 `next build`构建出生产代码。运行的时候，跟开发模式相同，程序默认开启在 `http://localhost:3000`。如果你想更改端口号：
+生产模式下,使用 `next start`运行程序,不过要先执行 `next build`构建出生产代码.运行的时候,跟开发模式相同,程序默认开启在 `http://localhost:3000`.如果你想更改端口号:
 ```js
 npx next start -p 5000
 ```
 
 # next lint
-执行 `next lint`会为 `pages/`、`app/`、`components/`、`lib/`、`src/`目录下的所有文件执行 ESLint 语法检查。如果你没有安装 ESLint，该命令会提供一个安装指导。如果你想要指定检查的目录：
+执行 `next lint`会为 `pages/`、`app/`、`components/`、`lib/`、`src/`目录下的所有文件执行 ESLint 语法检查,如果你没有安装 ESLint,该命令会提供一个安装指导.如果你想要指定检查的目录:
 ```js
 npx next lint --dir utils
 ```
 
 # next info
-`next info`会打印当前系统相关的信息，可用于报告 Next.js 程序的 bug。在项目的根目录中执行：
+`next info`会打印当前系统相关的信息,可用于报告 Next.js 程序的 bug.在项目的根目录中执行:
 ```js
 npx next info
 ```
